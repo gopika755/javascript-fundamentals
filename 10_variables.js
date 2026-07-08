@@ -1,2 +1,2 @@
-let issutudent = true;
-console.log(issutudent);
+let favoriotcolor="Black";
+console.log(favoriotcolor);
