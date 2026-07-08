@@ -1,2 +1,2 @@
-let favoriotcolor="Black";
-console.log(favoriotcolor);
+let height=167
+console.log(height);
