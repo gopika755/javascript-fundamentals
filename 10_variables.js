@@ -1,2 +1,2 @@
-let age=18
-console.log(age);
+let issutudent = true;
+console.log(issutudent);
