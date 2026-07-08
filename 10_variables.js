@@ -1,2 +1,2 @@
-let city = "kannur";
-console.log(city);
+let country = "India"
+console.log(country);
