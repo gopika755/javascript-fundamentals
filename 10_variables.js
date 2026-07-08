@@ -1,2 +1,2 @@
-let height=167
-console.log(height);
+let city = "kannur";
+console.log(city);
