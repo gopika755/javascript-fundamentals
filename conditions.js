@@ -1,3 +1,6 @@
-for (let i=2;i<=20;i+=2){
-    console.log(i)
+let i=20;
+
+while(i>=1){
+    console.log(i);
+    i--;
 }
