@@ -1,2 +1,3 @@
-var messeage = "Learning javascript";
-console.log(messeage);
+let a=20;
+let b=30;
+console.log(a+b);
