@@ -1,3 +1,8 @@
-let a=50;
-let b=30;
-console.log(a%b);
+let num1=20;
+let num2=10;
+
+console.log("Addition",num1 + num2);
+console.log("Substraction",num1 - num2);
+console.log("Multiplication",num1 + num2);
+console.log("Division",num1 / num2);
+console.log("Modulus",num1 % num2);
