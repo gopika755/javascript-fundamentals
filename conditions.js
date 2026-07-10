@@ -1,4 +1,4 @@
-let add = (a,b) =>{
-    return a + b;
-}
-console.log(add(10,30));
+let iseven = (num) =>{
+    return num % 2 == 0;
+};
+console.log(iseven(12))
