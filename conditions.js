@@ -1,10 +1,8 @@
-let fruits =["Apple","Kiwi","Mango","Orange","Blue Beryy"];
+let names =["Gopika","Fidha","Razi","Shaheer","Shihas"];
 
-for(i=0;i<fruits.length;i++){
-    console.log(fruits[i]);
+for(let i=1;i<names.length;i++){
+    console.log(names[i]);
 }
-
-
 
 
 
