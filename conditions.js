@@ -1,6 +1,10 @@
-let i=20;
+let fruits =["Apple","Kiwi","Mango","Orange","Blue Beryy"];
 
-while(i>=1){
-    console.log(i);
-    i--;
+for(i=0;i<fruits.length;i++){
+    console.log(fruits[i]);
 }
+
+
+
+
+
