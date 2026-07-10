@@ -1,8 +1,11 @@
-let num = [20,10,-200,9000];
-let small = num[0];
-for(let i=1;i<num.length;i++){
-    if(num[i]<small){
-        small = num[i];
+let num =[20,90,9,1,80,3,5,];
+let count = 0;
+for(i=0;i<num.length;i++){
+    if(num[i] % 2 == 0){
+        count ++;
     }
 }
-console.log(small);
+
+console.log(count);
+
+
