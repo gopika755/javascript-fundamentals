@@ -1,4 +1,4 @@
-let square = (num) =>{
-    return num * num;
-};
-console.log(square(2));
+let add = (a,b) =>{
+    return a + b;
+}
+console.log(add(10,30));
