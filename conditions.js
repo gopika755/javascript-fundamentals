@@ -1,11 +1,7 @@
-let num =[20,90,9,1,80,3,5,];
-let count = 0;
+let num = [10,90,30,90,20];
+let sum = 0;
 for(i=0;i<num.length;i++){
-    if(num[i] % 2 == 0){
-        count ++;
-    }
-}
+    sum += num[i];
 
-console.log(count);
-
-
+};
+console.log(sum);
