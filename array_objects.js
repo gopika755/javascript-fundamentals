@@ -1,13 +1,11 @@
-let cosmetics =[
-    {name:"Lipstic",price:10000},
-    {name:"Foundation",price:23000},
-    {name:"Primer",price:12000},
-    {name:"Concealer",price:34000}
+let users =[
+    {name:"Fidha",place:'taliparamba',isactive:true},
+    {name:"Shaheer",place:"valapattanam",isactive:true},
+    {name:"Razi",place:"sreekandapuram",isactive:true},
+    {name:"Shihas",place:"magad",isactie:true}
 ];
-let discount = cosmetics.map(cosmetics =>{
-    return{
-        name:cosmetics.name,
-        price:cosmetics.price * 0.9
-    };
-});
-console.log(discount);
+let count = users.reduce((total,user) =>{
+    return user.isactive ? total + 1: total;
+
+},0);
+console.log(count);
