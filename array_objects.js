@@ -1,12 +1,9 @@
-let users =[
-    {name:"GOPIKA",age:18,isactive:true},
-    {name:"NAJLA",age:18,isactive:false},
-    {name:"ANUSHA",age:19,isactive:true},
-    {name:"SAFA",age:19,isactive:false},
-    {name:"NAJIYA",age:18,isactive:false},
-    {name:"FIDHA",age:18,isactive:true},
+let products = [
+    {name:"mouse",price:500},
+    {name:"keyboard",price:7000},
+    {name:"monitor",price:9000}
 ];
-users.forEach(users =>{
-    console.log(users.name);
-}
-)
+let total = products.reduce((sum,product)=>{
+    return sum+product.price
+},0);
+console.log(total);
