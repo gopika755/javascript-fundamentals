@@ -4,5 +4,10 @@ let cosmetics =[
     {name:"Primer",price:12000},
     {name:"Concealer",price:34000}
 ];
-let expensive = cosmetics.filter(cosmetics => cosmetics.price > 11000);
-console.log(expensive);
+let discount = cosmetics.map(cosmetics =>{
+    return{
+        name:cosmetics.name,
+        price:cosmetics.price * 0.9
+    };
+});
+console.log(discount);
