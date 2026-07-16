@@ -6,5 +6,5 @@ let users =[
     {name:"NAJIYA",age:18,isactive:false},
     {name:"FIDHA",age:18,isactive:true},
 ];
-let names = users.map(users => users.name);
-console.log(names);
+let user =users.find(users => users.name === "NAJLA");
+console.log(user);
