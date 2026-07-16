@@ -4,5 +4,5 @@ let student = {
     course: "javascript"
 
 };
-console.log(student.name);
-console.log(student.age);
+student.city = "kannur";
+console.log(student);
