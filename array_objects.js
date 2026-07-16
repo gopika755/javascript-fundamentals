@@ -4,5 +4,5 @@ let student = {
     course: "javascript"
 
 };
-student.city = "kannur";
+delete student.course;
 console.log(student);
