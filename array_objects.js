@@ -6,5 +6,5 @@ let users =[
     {name:"NAJIYA",age:18,isactive:false},
     {name:"FIDHA",age:18,isactive:true},
 ];
-let activeUsers = users.filter(users => users.isactive);
-console.log(activeUsers);
+let names = users.map(users => users.name);
+console.log(names);
