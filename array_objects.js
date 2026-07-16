@@ -1,11 +1,8 @@
-let users =[
-    {name:"Fidha",place:'taliparamba',isactive:true},
-    {name:"Shaheer",place:"valapattanam",isactive:true},
-    {name:"Razi",place:"sreekandapuram",isactive:true},
-    {name:"Shihas",place:"magad",isactie:true}
+let cosmetics =[
+    {name:"Lipstic",price:9000},
+    {name:"Foundation",price:23000},
+    {name:"Primer",price:12000},
+    {name:"Concealer",price:34000}
 ];
-let count = users.reduce((total,user) =>{
-    return user.isactive ? total + 1: total;
-
-},0);
-console.log(count);
+let product = cosmetics.find(product =>product.price > 10000);
+console.log(product);
