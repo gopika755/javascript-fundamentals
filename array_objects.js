@@ -1,8 +1,8 @@
-let student = {
-    name : "jhon",
-    age : 25,
-    course: "javascript"
-
+let employee ={
+    name:"gopika",
+    address:{
+        city:"kannur",
+        state:"kerala",
+    }
 };
-delete student.course;
-console.log(student);
+console.log(employee.address.city);
