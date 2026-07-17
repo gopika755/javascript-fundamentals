@@ -1,13 +1,18 @@
-let cosmetics =[
-    {name:"Lipstic",price:9000},
-    {name:"Foundation",price:23000},
-    {name:"Primer",price:12000},
-    {name:"Concealer",price:34000}
+let users =[
+    {name:"GOPIKA",age:18,isactive:true},
+    {name:"NAJLA",age:18,isactive:false},
+    {name:"ANUSHA",age:19,isactive:true},
+    {name:"SAFA",age:19,isactive:false},
+    {name:"NAJIYA",age:18,isactive:false},
+    {name:"FIDHA",age:18,isactive:true},
 ];
-cosmetics.forEach(product=>{
-    console.log(product.price);
-});
 
+users.push({
+    name:"Ali",
+    age:24,
+    isactive:true
+});
+console.log(users);
 
 
 
