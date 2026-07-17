@@ -7,14 +7,10 @@ let users =[
     {name:"FIDHA",age:18,isactive:true},
 ];
 
-users.push({
-    name:"Ali",
-    age:24,
-    isactive:true
+users.forEach(users =>{
+    users.age =20;
 });
 console.log(users);
-
-
 
 
 
