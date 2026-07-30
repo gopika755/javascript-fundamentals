@@ -1,5 +1,9 @@
-const colors =["Red","Green","yellow"];
-const[first,second,third] =colors;
-console.log(first);
-console.log(second);
-console.log(third);
+const student ={
+    name:"Gopika",
+    age:18,
+};
+
+const clone ={
+    ...student
+};
+console.log(clone);
