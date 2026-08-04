@@ -1,13 +1,12 @@
-const fruits =["Apple","Mango","Orange"];
+const numbers =[10,20,30];
 
-const newfruits =[
-    ...fruits,  
-    "Orange"
-];
-const updatedfruits = fruits.filter(fruit => fruit !== "Mango");
-console.log(updatedfruits)
-
-
+const updatedNumbers = numbers.map(numbers => {
+    if (numbers === 20) {
+        return 29;
+     }
+     return numbers;
+});
+console.log(updatedNumbers);
 
 
 
