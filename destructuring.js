@@ -1,9 +1,20 @@
-const student ={
-    name:"Gopika",
-    age:18,
-};
+const fruits =["Apple","Mango"];
 
-const clone ={
-    ...student
-};
-console.log(clone);
+const newfruits =[
+    ...fruits,  
+    "Orange"
+];
+
+console.log(newfruits);
+
+
+
+
+
+
+
+
+
+
+
+
