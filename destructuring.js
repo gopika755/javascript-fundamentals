@@ -3,7 +3,8 @@ const student = {
     age:18,
 
 };
-const clone ={
-    ...student
+const updatedstudent ={
+    ...student,
+    age:19
 };
-console.log(clone);
+console.log(updatedstudent);
