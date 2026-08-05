@@ -1,5 +1,12 @@
-function add(a,b){
-    return a+b;
+const fruits=[
+    "apple",
+    "Orange",
+    "Banana"
+];
 
-}
-console.log(add(5,3));
+const newfruits=[
+    ...fruits,
+    "Grape"
+];
+console.log(fruits);
+console.log(newfruits);
