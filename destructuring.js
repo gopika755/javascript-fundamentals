@@ -1,8 +1,11 @@
-const student =[
-    {id:1,name:"Adeline"},
-    {id:2,name:"Zade"},
-    {id:3,name:"Daya"}
+const product = [
+    {name:"Phone"},
+    {name:"Laptop"},
+    {name:"watch"},
+    {name:"Headphone"}
+
 ];
-student.forEach(student =>{
-    console.log(student.name);
-});
+product.forEach(product =>{
+    console.log(product.name);
+}
+);
