@@ -1,12 +1,7 @@
 const name = "Gopika";
-
-const age = 18;
-
-const message = `Hello ${name} you are ${age} years old.`;
-
+const score = 98;
+const message = `Welcome ${name}.Your score is ${score}.`;
 console.log(message);
-
-
 
 
 
