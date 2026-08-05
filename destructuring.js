@@ -1,11 +1,9 @@
-const studnet ={
-    name:"Gopika",
-    age:18,
-    place:"kannur"
+const product ={
+    title:"Phone",
+    price:25000,
+    brand:"Samsung"
 };
+const {title,price,brand}=product;
 
-const {name,age,place} = studnet;
-
-console.log(name);
-console.log(age);
-console.log(place);
+console.log(title);
+console.log(price);
