@@ -1,8 +1,8 @@
-const student ={
-    name:"Adeline",
-    age:24,
-    place:"New york"
-};
-const {name,...details}=student;
-console.log(name);
-console.log(details);
+const student =[
+    {id:1,name:"Adeline"},
+    {id:2,name:"Zade"},
+    {id:3,name:"Daya"}
+];
+student.forEach(student =>{
+    console.log(student.name);
+});
