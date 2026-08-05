@@ -1,11 +1,10 @@
-const product = [
-    {name:"Phone"},
-    {name:"Laptop"},
-    {name:"watch"},
-    {name:"Headphone"}
-
-];
-product.forEach(product =>{
-    console.log(product.name);
+function greet(name,callback){
+    console.log("Hello " + name);
+    callback();
 }
-);
+
+function bye(){
+    console.log("Goodbye!");
+
+}
+greet("Gopika",bye)
