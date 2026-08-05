@@ -1,4 +1,8 @@
-const numbers =[10,20,30,40,50];
-const [first,...others] = numbers;
-console.log(first);
-console.log(others);
+const student ={
+    name:"Adeline",
+    age:24,
+    place:"New york"
+};
+const {name,...details}=student;
+console.log(name);
+console.log(details);
