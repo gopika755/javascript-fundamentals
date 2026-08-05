@@ -1,10 +1,5 @@
-function greet(name,callback){
-    console.log("Hello " + name);
-    callback();
-}
-
-function bye(){
-    console.log("Goodbye!");
+function add(a,b){
+    return a+b;
 
 }
-greet("Gopika",bye)
+console.log(add(5,3));
