@@ -1,14 +1,10 @@
-const numbers =[10,20,30];
+const name = "Gopika";
 
-const updatedNumbers = numbers.map(numbers => {
-    if (numbers === 20) {
-        return 29;
-     }
-     return numbers;
-});
-console.log(updatedNumbers);
+const age = 18;
 
+const message = `Hello ${name} you are ${age} years old.`;
 
+console.log(message);
 
 
 
