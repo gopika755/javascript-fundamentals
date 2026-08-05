@@ -3,10 +3,7 @@ const fruits=[
     "Orange",
     "Banana"
 ];
-
-const newfruits=[
-    ...fruits,
-    "Grape"
-];
-console.log(fruits);
-console.log(newfruits);
+const updated = fruits.filter(
+    fruits =>fruits !== "apple"
+);
+console.log(updated)
