@@ -1,10 +1,11 @@
-const name = "Gopika";
-const score = 98;
-const message = `Welcome ${name}.Your score is ${score}.`;
-console.log(message);
+const studnet ={
+    name:"Gopika",
+    age:18,
+    place:"kannur"
+};
 
+const {name,age,place} = studnet;
 
-
-
-
-
+console.log(name);
+console.log(age);
+console.log(place);
