@@ -1,11 +1,11 @@
-let temparature = 28;
+let name ="Gopika";
+let age =18;
+let isStudent =true;
+let value = null;
+let city;
 
-if (temparature >=35){
-    console.log("Hot");
-
-}else if(temparature >=25){
-    console.log("warm");
-    
-}else{
-    console.log("cold");
-};
+console.log(name);
+console.log(age);
+console.log(isStudent);
+console.log(value);
+console.log(city);
