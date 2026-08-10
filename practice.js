@@ -1,11 +1,5 @@
-let name ="Gopika";
-let age =18;
-let isStudent =true;
-let value = null;
-let city;
-
-console.log(name);
-console.log(age);
-console.log(isStudent);
-console.log(value);
-console.log(city);
+console.log(typeof 50);
+console.log(typeof "55");
+console.log(typeof true);
+console.log(typeof null);
+console.log(typeof undefined);
