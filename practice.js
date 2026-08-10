@@ -1,7 +1,7 @@
-let price = "199";
+let age = 20;
 
-price = Number(price);
+age =String(age);
 
-console.log(price);
-console.log(typeof price);
-console.log(price + 50);
+console.log(age);
+console.log(typeof age);
+console.log(`${age} years old`);
