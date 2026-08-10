@@ -1,4 +1,5 @@
-let message = "i love browniew";
+let fruits = "Apple,Orange,Mango";
 
-console.log(message.includes("brownie"));
-console.log(message.includes("icreame"));
+let fruitsArray = fruits.split(",");
+
+console.log(fruitsArray);
