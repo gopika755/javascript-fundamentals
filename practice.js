@@ -1,3 +1,3 @@
-let name ="Gopika";
+let name ="gopika";
 
-console.log(name.toLowerCase());
+console.log(name.toUpperCase());
