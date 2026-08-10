@@ -1,5 +1,4 @@
-let message = "I love icecream";
+let message = "i love browniew";
 
-let newMessage = message.replace("icecream", "Brownie");
-
-console.log(newMessage);
+console.log(message.includes("brownie"));
+console.log(message.includes("icreame"));
