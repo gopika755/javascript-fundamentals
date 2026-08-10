@@ -1,7 +1,6 @@
-let laptopprice =50000;
-let mouseprice = 1000;
-let keyboardprice = 2000;
+let first ="Javascript";
+let second ="is awesome";
 
-let total = laptopprice + mouseprice + keyboardprice ;
+let sentence = first + " " + second;
 
-console.log(total);
+console.log(sentence);
