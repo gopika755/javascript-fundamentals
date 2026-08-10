@@ -1,6 +1,11 @@
-let first ="Javascript";
-let second ="is awesome";
+let temparature = 28;
 
-let sentence = first + " " + second;
+if (temparature >=35){
+    console.log("Hot");
 
-console.log(sentence);
+}else if(temparature >=25){
+    console.log("warm");
+    
+}else{
+    console.log("cold");
+};
