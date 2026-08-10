@@ -1,9 +1,6 @@
-let a= 20;
-let b= 10;
-console.log(a>b);
-console.log(a<b);
-console.log(a>=b);
-console.log(a<=b);
-console.log(a==b);
-console.log(a===b);
-console.log(a!=b);
+let math = 75;
+let english =95;
+
+let passed = math >= 40 && english <= 40;
+
+console.log("passed: ",passed);
