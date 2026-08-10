@@ -1,6 +1,9 @@
-let num= 8;
-if(num % 2 ==0){
-    console.log(num,"is even");
-}else{
-    console.log(num,"is odd");
-};
+let a= 20;
+let b= 10;
+console.log(a>b);
+console.log(a<b);
+console.log(a>=b);
+console.log(a<=b);
+console.log(a==b);
+console.log(a===b);
+console.log(a!=b);
