@@ -1,6 +1,5 @@
-let math = 75;
-let english =95;
+let age = 23;
 
-let passed = math >= 40 && english <= 40;
+let eligibile = age >=18 && age <=60;
 
-console.log("passed: ",passed);
+console.log(eligibile);
