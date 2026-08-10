@@ -1,3 +1,3 @@
-let name ="gopika";
+let name ="Javascript";
 
-console.log(name.toUpperCase());
+console.log("Length:",name.length);
