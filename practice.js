@@ -1,5 +1,3 @@
-let fruits = "Apple,Orange,Mango";
+let text = "  Hello world   ";
 
-let fruitsArray = fruits.split(",");
-
-console.log(fruitsArray);
+console.log(text.trim());
