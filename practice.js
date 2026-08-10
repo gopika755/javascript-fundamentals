@@ -1,12 +1,7 @@
-let score =10;
+const country ="India";
 
-console.log(score);
+console.log(country);
 
-score = 20;
-console.log(score);
+country="Usa";
 
-score = 30;
-console.log(score);
-
-score=40;
-console.log(score);
+console.log(country);
