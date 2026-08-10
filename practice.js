@@ -1,5 +1,7 @@
-console.log(typeof 50);
-console.log(typeof "55");
-console.log(typeof true);
-console.log(typeof null);
-console.log(typeof undefined);
+let price = "199";
+
+price = Number(price);
+
+console.log(price);
+console.log(typeof price);
+console.log(price + 50);
