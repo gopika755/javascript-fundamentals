@@ -1,3 +1,3 @@
 let word ="GopikaKodiveettil";
 
-console.log(word.slice(6));
+console.log(word.slice(0,6));
