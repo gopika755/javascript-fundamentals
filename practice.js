@@ -1,7 +1,12 @@
-let a =10;
-let b =20;
+let score =10;
 
-[a, b] = [b,a];
+console.log(score);
 
-console.log("a =",a);
-console.log("b =",b);
+score = 20;
+console.log(score);
+
+score = 30;
+console.log(score);
+
+score=40;
+console.log(score);
