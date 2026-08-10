@@ -1,7 +1,6 @@
-let name = "Gopika";
-let age = 18;
-let city = "Kannur";
+let mark1 = 70;
+let mark2 = 80;
+let mark3 = 90;
 
-console.log(`Hi my name is ${name}.`);
-console.log(`I'm ${age} years old.`);
-console.log(`I live in ${city}`);
+let average = (mark1 + mark2 + mark3 )/ 3;
+console.log("Average =",average);
