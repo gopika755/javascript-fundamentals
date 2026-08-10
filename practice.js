@@ -1,3 +1,3 @@
-let name ="Javascript";
+let word ="GopikaKodiveettil";
 
-console.log("Length:",name.length);
+console.log(word.slice(6));
