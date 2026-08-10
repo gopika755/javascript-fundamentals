@@ -1,3 +1,5 @@
-let word ="GopikaKodiveettil";
+let message = "I love icecream";
 
-console.log(word.slice(0,6));
+let newMessage = message.replace("icecream", "Brownie");
+
+console.log(newMessage);
