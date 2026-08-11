@@ -1,9 +1,7 @@
-let temparature = -5;
+let age = 10;
 
-if(temparature > 30){
-    console.log("HOT");
-}else if(temparature >=20){
-    console.log("NORMAL");
+if(age >= 18 && age <= 60){
+    console.log("Age is Valid");
 }else{
-    console.log("COLD")
-}
+    console.log("Age is Not Valid");
+};
