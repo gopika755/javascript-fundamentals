@@ -1,7 +1,8 @@
-let age = 10;
+let username ="admin";
+let password = "124";
 
-if(age >= 18 && age <= 60){
-    console.log("Age is Valid");
+if(username == "admin" && password == "1234"){
+    console.log("Login Successful");
 }else{
-    console.log("Age is Not Valid");
+    console.log("Invalid");
 };
