@@ -1,9 +1,10 @@
+let a = 50;
+let b = 50;
 
-let a =45;
-let b =7;
-
-if(a>b){
-    console.log("Greater: ",a);
+if (a>b){
+    console.log("A is Greater");
+}else if(b>a){
+    console.log("B is Greater");
 }else{
-    console.log("Greater: ",b);
+    console.log("Both equal");
 };
