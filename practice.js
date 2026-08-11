@@ -1,9 +1,7 @@
-let number = -6
+let number = 7
 
-if(number >0){
-    console.log("Positive");
-}else if(number <0 ){
-    console.log("Negative");
+if(number % 2==0){
+  console.log("even");  
 }else{
-    console.log("zero");
+    console.log("odd");
 };
