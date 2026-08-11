@@ -1,7 +1,7 @@
-let number = 115;
-
-if (number >= 10 && number <= 50){
-    console.log("Number is between 10 and 50");
+let age = 55 
+let isStudent = true;
+if(age >= 60 || isStudent === true){
+    console.log("Discount available");
 }else{
-    console.log("Outside the range");
+    console.log("NO discount");
 };
