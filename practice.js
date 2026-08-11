@@ -1,7 +1,7 @@
-let number = 7
+let age = 10;
 
-if(number % 2==0){
-  console.log("even");  
-}else{
-    console.log("odd");
+if(age > 18){
+    console.log("Eligible");
+}else {
+    console.log("Not Eligible");
 };
