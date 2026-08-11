@@ -1,3 +1,4 @@
-let randomnumber = Math.floor(Math.random() *10) + 1;
+let number = 15.6789;
 
-console.log("Random Number: ",randomnumber);
+console.log(number.toFixed(1));
+console.log(number.toFixed(2));
