@@ -1,5 +1,3 @@
-let number = 8.67;
+let randomnumber = Math.floor(Math.random() *10) + 1;
 
-console.log("Round: ", Math.round(number));
-console.log("Floor: ",Math.floor(number));
-console.log("Ceil: ",Math.ceil(number));
+console.log("Random Number: ",randomnumber);
