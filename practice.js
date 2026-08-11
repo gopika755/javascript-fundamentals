@@ -1,10 +1,7 @@
-let a = 50;
-let b = 50;
+let password ="admin123";
 
-if (a>b){
-    console.log("A is Greater");
-}else if(b>a){
-    console.log("B is Greater");
+if(password == "admin123"){
+    console.log("Login succesfully");
 }else{
-    console.log("Both equal");
+    console.log("Wrong passowrd");
 };
