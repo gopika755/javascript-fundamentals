@@ -1,8 +1,7 @@
-let username ="admin";
-let password = "124";
+let day = "monday";
 
-if(username == "admin" && password == "1234"){
-    console.log("Login Successful");
+if(day === "saturday" || day === "sunday"){
+    console.log("Weekend");
 }else{
-    console.log("Invalid");
+    console.log("Weekday");
 };
