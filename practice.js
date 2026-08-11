@@ -1,7 +1,7 @@
-let day = "monday";
+let number = 115;
 
-if(day === "saturday" || day === "sunday"){
-    console.log("Weekend");
+if (number >= 10 && number <= 50){
+    console.log("Number is between 10 and 50");
 }else{
-    console.log("Weekday");
+    console.log("Outside the range");
 };
