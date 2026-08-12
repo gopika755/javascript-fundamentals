@@ -1,9 +1,4 @@
-function greater(a,b){
-    if(a>b){
-        return a;
-    }else{
-        return b;
-    };
-   
+function calculate(width,length){
+    return length * width;
 }
- console.log(greater(4,6))
+console.log(calculate(10,5));
