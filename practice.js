@@ -1,4 +1,3 @@
-const add = (a,b) =>{
-    return a +b;
-};
-console.log(add(30,70));
+const square = number => number * number;
+
+console.log(square(5));
