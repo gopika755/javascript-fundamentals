@@ -1,5 +1,6 @@
-function greet(name){
-    console.log("Hello",name);
-};
+function add(a,b){
+    return a +b
+}
+let result = add(100,90);
 
-greet("Gopika");
+console.log(result);
