@@ -1,3 +1,3 @@
-const square = number => number * number;
+const greet = name => `Hello ${name}`;
+console.log(greet("Gopika"));
 
-console.log(square(5));
