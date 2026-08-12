@@ -1,4 +1,4 @@
-function calculate(width,length){
-    return length * width;
+function square(number){
+    return number * number;
 }
-console.log(calculate(10,5));
+console.log(square(6));
