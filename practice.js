@@ -1,6 +1,8 @@
-function add(a,b){
-    return a +b
-}
-let result = add(100,90);
-
-console.log(result);
+function evenorodd(number){
+    if(number % 2 == 0){
+        return "Even";
+    }else{
+        return "Odd";
+    };
+};
+console.log(evenorodd(15));
