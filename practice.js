@@ -1,8 +1,9 @@
-function evenorodd(number){
-    if(number % 2 == 0){
-        return "Even";
+function greater(a,b){
+    if(a>b){
+        return a;
     }else{
-        return "Odd";
+        return b;
     };
-};
-console.log(evenorodd(15));
+   
+}
+ console.log(greater(4,6))
