@@ -1,4 +1,8 @@
-const add = function (a,b){
-    return a +b;
-}
-console.log(add(10,20));
+const check = function (number){
+    if(number % 2 == 0){
+        return "Even";
+    }else{
+        return "Odd";
+    };
+};
+console.log(check(7));
