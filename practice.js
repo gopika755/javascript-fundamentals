@@ -1,4 +1,4 @@
-function square(number){
-    return number * number;
+const add = function (a,b){
+    return a +b;
 }
-console.log(square(6));
+console.log(add(10,20));
