@@ -1,9 +1,9 @@
-function factorial(number){
-    let result = 1;
+let number = 12345;
+sum = 0;
 
-    for(let i=1;i<=number;i++){
-        result *= i;
-    }
-    return result;
+while(number>0){
+    let digit = number % 10;
+    sum +=digit;
+    number =Math.floor(number / 10);
 }
-console.log(factorial(5));
+console.log(sum);
