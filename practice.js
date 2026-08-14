@@ -1,12 +1,12 @@
-let units = 150;
-let bill;
+let balance = 10000;
+let widthdrawal = 3000;
 
-if(units <=100){
-    bill=units* 5;
-}else if(units <= 200){
-    bill=units * 7;
+if(widthdrawal <= balance){
+    balance = balance - widthdrawal;
+
+    console.log("Widthrawal  successful");
+    console.log("Remaining balance: ",balance);
+
 }else{
-    bill=units * 10;
-}
-
-console.log("Electicity bill",bill);
+    console.log("Insufficient balance");
+};
