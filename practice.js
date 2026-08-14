@@ -1,15 +1,12 @@
-let price = 5000;
-let discount;
+let units = 150;
+let bill;
 
-if(price >= 5000){
-    discount = 20;
-}else if(price >=3000){
-    discount = 10;
+if(units <=100){
+    bill=units* 5;
+}else if(units <= 200){
+    bill=units * 7;
 }else{
-    discount =0;
+    bill=units * 10;
 }
 
-let discountamount = price * discount / 100;
-let finalprice = price = discountamount;
-console.log("Discount: ",discount + "%");
-console.log("Final price:",finalprice);
+console.log("Electicity bill",bill);
