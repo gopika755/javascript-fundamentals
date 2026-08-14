@@ -1,11 +1,15 @@
-function sumofdigit(number){
-    let sum =0
+let price = 5000;
+let discount;
 
-    while(number>0){
-        let digit = number % 10;
-        sum += digit
-        number =Math.floor(number / 10);
-    }
-    return sum;
+if(price >= 5000){
+    discount = 20;
+}else if(price >=3000){
+    discount = 10;
+}else{
+    discount =0;
 }
-console.log(sumofdigit(123456));
+
+let discountamount = price * discount / 100;
+let finalprice = price = discountamount;
+console.log("Discount: ",discount + "%");
+console.log("Final price:",finalprice);
