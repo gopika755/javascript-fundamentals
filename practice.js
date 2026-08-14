@@ -1,13 +1,9 @@
-for(let number = 2;number <=50;number ++){
-    let isPrime = true;
+function factorial(number){
+    let result = 1;
 
-    for(let i=2;i<number;i++){
-        if(number % i == 0){
-            isPrime = false;
-        }
+    for(let i=1;i<=number;i++){
+        result *= i;
     }
-
-    if(isPrime){
-        console.log(number);
-    }
+    return result;
 }
+console.log(factorial(5));
