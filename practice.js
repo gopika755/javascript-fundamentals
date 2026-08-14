@@ -1,14 +1,19 @@
-let number = 1231;
-let orginal= number;
-let reverse=0;
-while(number>0){
-    let digit = number % 10;
+let number= 17;
+let isPrime = true;
 
-    reverse = reverse * 10 +digit;
-    number = Math.floor(number/10);
-};
-    if (orginal === reverse){
-        console.log("Plindrome");
-    }else{
-        console.log("Not palindrome");
+if(number <= 1){
+    isPrime = false;
+}
+
+for(i=2;i<number;i++){
+    if(number % i ==0){
+        isPrime = false;
+        break;
     }
+}
+
+if(isPrime){
+    console.log("Prime");
+}else{
+    console.log("Not Prime");
+};
