@@ -1,12 +1,15 @@
-let balance = 10000;
-let widthdrawal = 3000;
+let mark1 = 80;
+let mark2 = 75;
+let mark3 = 90;
 
-if(widthdrawal <= balance){
-    balance = balance - widthdrawal;
+let total = mark1 + mark2 + mark3 ;
+let average = total / 3;
 
-    console.log("Widthrawal  successful");
-    console.log("Remaining balance: ",balance);
+console.log("Total:",total);
+console.log("Average:",average);
 
+if(average > 70){
+    console.log("Pass");
 }else{
-    console.log("Insufficient balance");
+    console.log("Fail");
 };
